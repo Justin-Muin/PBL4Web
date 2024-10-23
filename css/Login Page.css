@@ -1,0 +1,45 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #cbd5d6;
+    border-radius: 5px;
+}
+
+/* Input fields styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #77b543;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #5f9935;
+}
+
+/* Links styling */
+a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}

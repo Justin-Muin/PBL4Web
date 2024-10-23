@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eef2f3;
+    font-family: Arial, sans-serif;
+}
+
+/* Loading container styles */
+.loading-container {
+    text-align: center;
+}
+
+/* Logo style */
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Loading text style */
+.loading-text {
+    font-size: 20px;
+    color: #77b543;
+    margin-bottom: 20px;
+}
+
+/* Spinner animation and style */
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #77b543;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+/* Keyframes for spinner animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
