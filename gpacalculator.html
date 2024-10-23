@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="gpacalculator.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>GPA Calculator</h1>
+        </header>
+        <div class="content">
+            <div class="left-panel">
+                <label for="grading-scale">Grading Scale</label>
+                <select id="grading-scale">
+                    <option value="5.0">5.0 Scale</option>
+                    <option value="4.5">4.5 Scale</option>
+                    <option value="4.0">4.0 Scale</option>
+                </select>
+                <form id="gpaForm">
+                    <table class="course-table">
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Course</th>
+                                <th>Credits</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td><input type="text" name="course1" placeholder="Course Name"></td>
+                                <td><input type="number" name="credits1" placeholder="Credits" min="1"></td>
+                                <td><input type="text" name="grade1" placeholder="Grade"></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td><input type="text" name="course2" placeholder="Course Name"></td>
+                                <td><input type="number" name="credits2" placeholder="Credits" min="1"></td>
+                                <td><input type="text" name="grade2" placeholder="Grade"></td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td><input type="text" name="course3" placeholder="Course Name"></td>
+                                <td><input type="number" name="credits3" placeholder="Credits" min="1"></td>
+                                <td><input type="text" name="grade3" placeholder="Grade"></td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td><input type="text" name="course4" placeholder="Course Name"></td>
+                                <td><input type="number" name="credits4" placeholder="Credits" min="1"></td>
+                                <td><input type="text" name="grade4" placeholder="Grade"></td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td><input type="text" name="course5" placeholder="Course Name"></td>
+                                <td><input type="number" name="credits5" placeholder="Credits" min="1"></td>
+                                <td><input type="text" name="grade5" placeholder="Grade"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="submit" class="gpa-button">Calculate GPA</button>
+                </form>
+            </div>
+            <div class="right-panel">
+                <h3>Grading Scale</h3>
+                <table class="scale-table">
+                    <tr><td>A+</td><td>90-100</td></tr>
+                    <tr><td>A</td><td>80-89.99</td></tr>
+                    <tr><td>B</td><td>70-79.99</td></tr>
+                    <tr><td>C</td><td>60-69.99</td></tr>
+                    <tr><td>F</td><td>0-59.99</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
